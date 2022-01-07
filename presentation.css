@@ -1,0 +1,165 @@
+html, body{
+    margin: 20; 
+    padding: 50;
+}
+/*Arrière Plan de l'ensemble de la web page du CV*/
+body{
+    color:black;
+    background-color:white;  
+    background-image:url(image/interlaced/interlaced.png); 
+    background-attachment:fixed; 
+    margin: 30px;
+}
+ul{
+    padding: 200;   
+    margin: 1;     
+    list-style-type: none;
+    position: fixed;  
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    background-color:dimgrey;
+    opacity: 0,98; 
+    overflow: hidden;
+    margin-top: -2px;   
+}
+.textmenu{
+    color: white;
+    text-decoration: none;
+}
+li a{
+    display:block;
+    color: azure;
+    padding: 15px 30px;
+    text-align: center;
+    padding-left: 160px 
+}
+.SCD{
+    text-align: center;   
+    font-size: 15px;      
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/*Section 1 Introduction CV*/
+.sec1{
+    margin-top: 110px;
+}
+.imagepp1 img{
+    float: left;
+    margin-left: -150px;
+    margin-top: -30px;
+}
+.secinp{
+    margin-left: 100px;
+}
+.tit{
+    text-align: center;
+}
+.prez a{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    background-color: blue;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+
+
+/*Sections 2 diplomes*/
+section{ 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info{
+    display: flex;
+    flex-flow: column wrap;
+}
+.exp-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.exp-logo1{
+    flex: 0 0 25%;
+    max-width: 100px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.exp-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.exp img{
+    width: 100%;
+}
+.exp h3{
+    font-size:  1.2em;
+}
+.exp-desc1 h4{
+    margin-left: 60px;
+}
+
+
+/*Sections 3 BUT RT*/
+.but img {
+	width: 130px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.buttex{
+    margin-left: 30px;
+
+}
+
+
+/*Sections 4 Ambitions Passions*/
+.futurorange img{
+    width: 200px;
+    float: left;
+    margin-left: -250px;
+    margin-top: -40px;
+    border-bottom: 1px solid #bbb;
+}
+.cuisine img{
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+}
+.cuisinec img{
+    margin-top: 30px;
+}
+.cuisineb img{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.cuisinetex{
+    margin-left: 285px;
+}
+.informatiquetex{
+    margin-left: 285px;
+}
+.informatique img{
+    border-top: 1px solid #bbb;
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
